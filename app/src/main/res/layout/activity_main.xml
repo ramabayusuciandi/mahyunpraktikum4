@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_16dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:hint="Masukan nomor telepone"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_12sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_8dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:background="#00887A"
+        android:text="Open Dial Phone"
+        android:textColor="#00887A"
+        android:textSize="@dimen/text_size_14sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edtWebsiteUri"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_16dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:hint="Masukan URL"
+        android:inputType="textUri"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_12sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnWebsiteUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_8dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:background="@color/colorPrimary"
+        android:text="Open Browser"
+        android:textColor="#00887A"
+        android:textSize="@dimen/text_size_14sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edtLocationUri"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_16dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:hint="Buka Lokasi"
+        android:inputType="textUri"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_12sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnLocationUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_8dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:background="#00887A"
+        android:text="Buka Lokasi"
+        android:textColor="#00887A"
+        android:textSize="@dimen/text_size_14sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edtShareText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_padding_40dp"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_16dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:hint="Masukan Text"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_12sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnShareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_16dp"
+        android:layout_marginTop="@dimen/margin_padding_8dp"
+        android:layout_marginRight="@dimen/margin_padding_16dp"
+        android:background="#00887A"
+        android:text="Share Text"
+        android:textColor="#00887A"
+        android:textSize="@dimen/text_size_14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
